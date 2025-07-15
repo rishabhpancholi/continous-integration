@@ -29,5 +29,5 @@ def test_fifth_power():
 
 # Test for invalid input
 def test_invalid_input():
-    with pytest.raises(ValueError):
+    with pytest.raises(TypeError):
         square("string")
